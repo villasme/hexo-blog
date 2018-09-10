@@ -1,6 +1,8 @@
 ---
 title: docker-nginx
 categories: docker
+tags:
+- docker
 ---
 
 # nginx

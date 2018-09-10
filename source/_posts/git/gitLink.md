@@ -1,6 +1,8 @@
 ---
 title: git-links
 categories: git
+tags: 
+- git
 ---
 
 ## links 
