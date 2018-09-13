@@ -1,6 +1,7 @@
 ---
 title: npm
 date: 2018-09-12 12:07:00
+categories: FE
 tags:
 - npm
 ---

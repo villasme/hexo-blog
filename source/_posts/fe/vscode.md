@@ -1,5 +1,6 @@
 ---
 title: vscode 插件与功能使用
+categories: FE
 tags: 
 - vscode
 ---

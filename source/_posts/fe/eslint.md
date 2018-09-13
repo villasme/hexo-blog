@@ -1,6 +1,7 @@
 ---
 title: vscode-eslint配置
 date: 2018-09-11 16:57:58
+categories: FE
 tags:
 - eslint
 - vscode

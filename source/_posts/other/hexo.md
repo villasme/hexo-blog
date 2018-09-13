@@ -1,5 +1,6 @@
 ---
 title: hexo 标签不显示问题
+categories: other
 tags: 
 - hexo
 ---
@@ -26,4 +27,19 @@ menu:
   home: /
   archives: /archives
   tags: /tags
+```
+
+* 基于scaffolds/post 中的模板创建新的 md文件
+```bash
+hexo new post yourname
+```
+
+* 创建分类配置
+```bash
+hexo new page categories
+```
+
+* 创建标签配置
+```bash
+hexo new page tags
 ```

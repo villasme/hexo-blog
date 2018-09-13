@@ -1,5 +1,6 @@
 ---
 title: gitlab Server 搭建
+categories: git
 tags:
 - git
 ---
