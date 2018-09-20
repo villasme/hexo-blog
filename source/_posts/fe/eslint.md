@@ -53,6 +53,7 @@ npm i -D  eslint eslint-plugin-html
 * 用户配置
     - eslint.autoFixOnSave 用来进行保存时自动格式化，但是默认只支持 javascript .js 文件
     - "eslint.validate": [ "javascript", "javascriptreact", "html" ] 不生效 使用以下配置
+    - [参考](http://www.ptbird.cn/vscode-autosave-eslint-support-vue.html)
 ```json
 {
   "eslint.autoFixOnSave": true,

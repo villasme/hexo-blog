@@ -19,6 +19,8 @@ tags:
 |prettier - code formatter | 代码自动格式化 |
 |vetur | vue格式化工具 （格式化 html"vetur.format.defaultFormatter.html": "" ）|
 |vim  | 使用 vim|
+|Import Cost|检测导入文件的大小|
+|Version Lens|显示package 软件包版本信息|
 
 ## prettier - code formatter 自定义格式化文件
 
