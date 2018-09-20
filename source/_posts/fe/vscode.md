@@ -21,7 +21,7 @@ tags:
 |vim  | 使用 vim|
 |Import Cost|检测导入文件的大小|
 |Version Lens|显示package 软件包版本信息|
-
+|Package watcher| package.json修改后 可以自动下载删除包 （单层目录才可以）|
 ## prettier - code formatter 自定义格式化文件
 
 * 需要在工程中配置 .prettierc 
