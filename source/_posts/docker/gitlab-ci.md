@@ -15,10 +15,12 @@ docker pull gitlab/gitlab-runner
 
 ## 启动gitlab-runner
 
-```bush
-docker run -d --naner gitlab_runner gitlab/gitlab-runner
+```bash
+# docker run -d --naner gitlab_runner gitlab/gitlab-runner
+# 不挂载会出现问题
+docker run -v /var/run/docker.sock:/var/run/docker.sock --name gitlab_runner  -d  gitlab/gitlab-runner
 ```
-
+* [关于/var/run/docker.sock 请点击](https://blog.fundebug.com/2017/04/17/about-docker-sock/)
 ## exec gitlab-runner
 
 ```bash
@@ -26,6 +28,7 @@ docker exec -it gitlab_runner /bin/bash
 ```
 
 ## register gitlab-runner
+* tags 很重要要不然会提示你找不到匹配的标签
 
 ```bash
 $ gitlab-ci-multi-runner register
@@ -85,7 +88,13 @@ job3:
     script:
         - echo "I am job3"
         - echo "I am in deploy stage"
-
+job4:
+    stage: MyTestTages
+    tags:
+        - python2.7
+    script:
+        - echo "这个的tags 是在gitlab-ci-multi-runner register 注册的   会自动使用docker 下载镜像 会慢一些情等待 "
+        - echo "Please enter the executor:docker shell 这个功能还是很强大的 他可以让你选择以什么方式运行配置文件 .gitlab-ci.yml"
 ```
 
 ## 不是必备的修改- 修改gitlab 域名
