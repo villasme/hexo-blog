@@ -1,5 +1,5 @@
 ---
-title: 二零一八年十月一节后感想
+title: 2018年10月1节后感悟
 categories: other
 tags: 
 - 记忆流年
