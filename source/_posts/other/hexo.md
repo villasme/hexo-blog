@@ -44,6 +44,9 @@ hexo new page categories
 hexo new page tags
 ```
 
+## hexo 增加评论系统
+
+* https://ryanluoxu.github.io/2017/11/27/Hexo-Next-%E6%B7%BB%E5%8A%A0-Gitment-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/   亲测可用
 
 ## postman 启动爬虫
 
