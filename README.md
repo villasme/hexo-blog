@@ -53,3 +53,8 @@ tree -L 3 -d -h -I "node_modules|public|themes"
 ## 主题
 * git clone https://gitlab.com/newHotCat/hexo-next-page.git   到 hexo-blog/themes/next
 * https://hexo.io/zh-cn/docs/deployment
+
+
+## gitment 不能登陆问题
+
+* https://sjq597.github.io/2018/05/18/Hexo-%E4%BD%BF%E7%94%A8Gitment%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/
