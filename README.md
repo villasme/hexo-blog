@@ -51,7 +51,7 @@ tree -L 3 -d -h -I "node_modules|public|themes"
 
 
 ## 主题
-* git clone https://gitlab.com/newHotCat/hexo-next-page.git   到 hexo-blog/themes/next
+* git clone https://gitlab.com/newHotCat/hexo-next-page.git next  到 hexo-blog/themes
 * https://hexo.io/zh-cn/docs/deployment
 
 
